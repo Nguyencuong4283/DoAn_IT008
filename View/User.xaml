@@ -41,63 +41,60 @@
 
 
         </Grid>
-        <ScrollViewer Width="1240" Height="660"   VerticalScrollBarVisibility="Auto"
-      HorizontalScrollBarVisibility="Disabled" Margin="100,204,100,20" Background="#F0EEEE">
-            <!--Danh sách sản phẩm-->
-            <WrapPanel Orientation="Horizontal">
-                <!--Border-->
-                <Border BorderBrush="black" BorderThickness="3" CornerRadius="4" Height="300" Width="200" Margin ="20" Padding="0" ClipToBounds="True">
-                    <Button Background="gray" Padding="0" BorderThickness="0">
-                        <Grid Height="297">
-                            <!-- Sử dụng Grid.RowDefinitions để chia vùng -->
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="2*" />
-                                <!-- Ảnh chiếm 2 phần -->
-                                <RowDefinition Height="*" />
-                                <!-- Text chiếm 1 phần -->
-                                <RowDefinition Height="auto"/>
-                                <!--Text còn lại-->
-                            </Grid.RowDefinitions>
+        <ScrollViewer Width="1240" Height="660" VerticalScrollBarVisibility="Auto"
+              HorizontalScrollBarVisibility="Disabled" Margin="100,204,100,20" Background="#F0EEEE">
+            <ItemsControl ItemsSource="{Binding SanPhams}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="black" BorderThickness="3" CornerRadius="4" Height="300" Width="200" Margin="20" Padding="0" ClipToBounds="True">
+                            <Button Background="Gray" Padding="0" BorderThickness="0">
+                                <Grid Height="297">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="2*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
 
-                            <!-- Ảnh -->
-                            <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1" CornerRadius="4" ClipToBounds="True" Margin="0">
-                                <Image Source="/Asset/Images/Demo.jpg"
-                       Stretch="UniformToFill" VerticalAlignment="Center"
-                   HorizontalAlignment="Center" Width="194"/>
-                            </Border>
+                                    <!-- Ảnh -->
+                                    <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1" CornerRadius="4" ClipToBounds="True">
+                                        <Image Source="{Binding HinhAnh}" Stretch="UniformToFill" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
 
-                            <!-- Nội dung text -->
-                            <StackPanel Grid.Row="1" Background="Transparent" VerticalAlignment="Center">
-                                <TextBlock Text="{Binding TenSanPham}" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-                                <TextBlock Text="Giá: {Binding GiaSamPham}VNĐ" HorizontalAlignment="Center" FontWeight="Bold" />
-                                <TextBlock Text="Khuyến mãi: {Binding KhuyenMai}%"  HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                                <TextBlock Text="Giá gốc: {Binding GiaGoc}VNĐ"  HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                            </StackPanel>
-                            <TextBlock Grid.Row="2"
-                       Text="Địa chỉ: 123 Đường ABC"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Bottom"
-                       Margin="0,5,0,5"
-                       FontSize="12"
-                       Foreground="White"/>
-                        </Grid>
-                    </Button>
-                </Border>
-                <Button Height="300" Width="200" Background="blue" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="green" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="yellow" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="purple" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="orange" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="pink" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="red" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="blue" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="green" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="yellow" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="purple" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="orange" Margin="20"></Button>
-                <Button Height="300" Width="200" Background="pink" Margin="20"></Button>
-            </WrapPanel>
+                                    <!-- Thông tin sản phẩm -->
+                                    <StackPanel Grid.Row="1" Background="Transparent" VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding TenSanPham}" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                                        <TextBlock HorizontalAlignment="Center" FontWeight="Bold">
+                                    <Run Text="Giá: "/>
+                                    <Run Text="{Binding GiaBan}"/>
+                                    <Run Text=" VNĐ"/>
+                                        </TextBlock>
+                                        <TextBlock HorizontalAlignment="Center" Margin="0,0,0,5">
+                                    <Run Text="Khuyến mãi: "/>
+                                    <Run Text="{Binding KhuyenMai}"/>
+                                    <Run Text="%"/>
+                                        </TextBlock>
+                                        <TextBlock HorizontalAlignment="Center" Margin="0,0,0,10">
+                                    <Run Text="Giá gốc: "/>
+                                    <Run Text="{Binding GiaGoc}"/>
+                                    <Run Text=" VNĐ"/>
+                                        </TextBlock>
+                                    </StackPanel>
+
+                                    <!-- Địa chỉ cửa hàng -->
+                                    <TextBlock Grid.Row="2" Text="{Binding DiaChi}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,5,0,5" FontSize="12" Foreground="White"/>
+                                </Grid>
+                            </Button>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </ScrollViewer>
+
 
 
     </Grid>

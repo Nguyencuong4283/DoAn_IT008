@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Include="D:\HỌC TẬP\IT008-Lập trình trực quan\Đồ án.xaml" Link="Đồ án.xaml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Asset\Images\LogIn_Shiper.jpg" />
   </ItemGroup>
 
