@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Asset\Images\LogIn_Shiper.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="D:\HỌC TẬP\IT008-Lập trình trực quan\Đồ án.xaml" Link="Đồ án.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Asset\Images\LogIn_Shiper.jpg" />
+  </ItemGroup>
+
+</Project>
