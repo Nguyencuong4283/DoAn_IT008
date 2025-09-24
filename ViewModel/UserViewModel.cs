@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace ShopLink.ViewModel
 {
@@ -21,6 +22,7 @@ namespace ShopLink.ViewModel
                 OnPropertyChanged(nameof(SanPhams));
             }
         }
+        public ICommand MoThemSanPhamCommand { get; }
 
         public UserViewModel()
         {
@@ -41,7 +43,14 @@ namespace ShopLink.ViewModel
                 KhuyenMai = 20,
                 HinhAnh = "C:\\Users\\Admin\\source\\repos\\ShopLink\\Asset\\Images\\Demo.jpg"
             }
+
         };
+            MoThemSanPhamCommand = new RelayCommand(MoThemSanPham);
+        }
+        private void MoThemSanPham()
+        {
+            var win = new ShopLink.View.ThemSanPham();
+            win.ShowDialog();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

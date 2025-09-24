@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Asset\Images\LogIn_Shiper.jpg" />
   </ItemGroup>
 

@@ -2,6 +2,11 @@
 
 namespace ShopLink.Model
 {
+    public enum TrangThai
+    {
+        Private,
+        Public
+    }
     public class SanPham
     {
         public string MaSanPham { get; set; }
@@ -9,15 +14,11 @@ namespace ShopLink.Model
         public string MoTaSanPham { get; set; }
         public DateOnly NgayHetHan { get; set; }
         public int SoLuong { get; set; }
-
         public double GiaGoc { get; set; }
         public double KhuyenMai { get; set; }
-
-        // Giá bán tính tự động từ Giá gốc và Khuyến mãi
-        public double GiaBan => GiaGoc - GiaGoc * KhuyenMai / 100;
-
         public string HinhAnh { get; set; }
-        public string MaStore { get; set; }
+        public TrangThai TrangThai { get; set; } = TrangThai.Private;
+        public string MaStore { get; set;}
 
         public SanPham() { }
 

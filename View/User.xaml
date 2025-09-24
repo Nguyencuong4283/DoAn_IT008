@@ -36,6 +36,7 @@
             <Button Content="👤" Width="35" Height="35" Background="Gray" Margin="1395,40,10,100"/>
             <Button Content="🛒" RenderTransformOrigin="1.175,2.287" Margin="1253,112,104,0" Background="#D9D9D9"/>
             <Button Content="⚙" Margin="1361,112,0,0"/>
+            <Button Content="+" Command="{Binding MoThemSanPhamCommand}" FontSize="30" Margin="1114,106,250,-1" Background="red"/>
 
 
 
@@ -68,11 +69,7 @@
                                     <!-- Thông tin sản phẩm -->
                                     <StackPanel Grid.Row="1" Background="Transparent" VerticalAlignment="Center">
                                         <TextBlock Text="{Binding TenSanPham}" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-                                        <TextBlock HorizontalAlignment="Center" FontWeight="Bold">
-                                    <Run Text="Giá: "/>
-                                    <Run Text="{Binding GiaBan}"/>
-                                    <Run Text=" VNĐ"/>
-                                        </TextBlock>
+                                     
                                         <TextBlock HorizontalAlignment="Center" Margin="0,0,0,5">
                                     <Run Text="Khuyến mãi: "/>
                                     <Run Text="{Binding KhuyenMai}"/>
