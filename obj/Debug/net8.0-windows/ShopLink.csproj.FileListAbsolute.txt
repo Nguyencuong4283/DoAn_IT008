@@ -2,6 +2,7 @@ C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\ShopLink.csproj.As
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\App.baml
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\MainWindow.g.cs
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\Register_Account.g.cs
+C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\ThemSanPham.g.cs
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\User.g.cs
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -18,7 +19,6 @@ C:\Users\Admin\source\repos\ShopLink\bin\Debug\net8.0-windows\runtimes\win-x64\n
 C:\Users\Admin\source\repos\ShopLink\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\Admin\source\repos\ShopLink\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Admin\source\repos\ShopLink\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\ThemSanPham.g.cs
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\ReSourceXAML\MainReSource.baml
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\MainWindow.baml
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\Register_Account.baml
@@ -36,3 +36,5 @@ C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\refint\ShopLink.dl
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\ShopLink.pdb
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\ShopLink.genruntimeconfig.cache
 C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\ref\ShopLink.dll
+C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\ThongTinUser.g.cs
+C:\Users\Admin\source\repos\ShopLink\obj\Debug\net8.0-windows\View\ThongTinUser.baml

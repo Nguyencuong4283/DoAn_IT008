@@ -1,12 +1,13 @@
 ﻿using ShopLink.Model;
-using ShopLink.Model;
 using ShopLink.Repository;
+using ShopLink.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 
@@ -25,47 +26,68 @@ namespace ShopLink.ViewModel
             }
         }
 
-        private int _soLuong;
-        public int SoLuong
-        {
-            get => _soLuong;
-            set
-            {
-                if (_soLuong != value)
-                {
-                    _soLuong = value;
-                    OnPropertyChanged(nameof(SoLuong)); //Thông báo UI giá trị 1 thuộc tính đã thay đổi
-                }
-            }
-        }
-
+        private readonly User _user; // User hiện tại
         private readonly SanPhamRepository _repo;
+        public ICommand ChonAnhCommand { get; }
 
-        public ICommand ThemCommand { get; }
+        public ICommand ThemSanPhamCommand { get; }
         public ICommand TangSLCommand { get; }
         public ICommand GiamSLCommand { get; }
-
+        public ICommand HuyCommand { get; }
+        public Action CloseAction { get; set; }
 
         public SanPhamViewModel()
         {
             _repo = new SanPhamRepository();
-            SanPham = new SanPham { SoLuong = 1};
+            SanPham = new SanPham { SoLuong = 1 };
             TangSLCommand = new RelayCommand(TangSoLuong);
             GiamSLCommand = new RelayCommand(GiamSoLuong);// ⬅ Khởi tạo để tránh null khi binding
-            ThemCommand = new RelayCommand(() => _repo.Insert(SanPham));
+            ThemSanPhamCommand = new RelayCommand(ThemSanPham, () => SanPham != null);
+            ChonAnhCommand = new RelayCommand(ChonAnh);
+            HuyCommand = new RelayCommand(Huy);
+        }
+        private void ChonAnh()
+        {
+            var dialog = new Microsoft.Win32.OpenFileDialog();
+            dialog.Filter = "Image files (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
+            if (dialog.ShowDialog() == true)
+            {
+                // Gán đường dẫn ảnh vào thuộc tính SanPham.HinhAnh
+                SanPham.HinhAnh = dialog.FileName;
+
+                // Thông báo UI cập nhật
+                OnPropertyChanged(nameof(SanPham));
+            }
         }
         private void TangSoLuong()
         {
            SanPham.SoLuong++;
-            OnPropertyChanged(nameof(SoLuong));
+          
         }
         private void GiamSoLuong()
         {
             if(SanPham.SoLuong > 1)
             {
                 SanPham.SoLuong--;
-                OnPropertyChanged(nameof(SoLuong));
+               
             }
+        }
+        private void ThemSanPham()
+        {
+            try
+            {
+                _repo.Insert(SanPham);
+                MessageBox.Show("Thêm sản phẩm thành công!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+
+        }
+        private void Huy()
+        {
+            CloseAction?.Invoke();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

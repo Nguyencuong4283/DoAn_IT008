@@ -20,7 +20,10 @@ namespace ShopLink.View
         public ThemSanPham()
         {
             InitializeComponent();
+            var vm = new SanPhamViewModel();
+            vm.CloseAction = new Action(this.Close);
             DataContext = new SanPhamViewModel();
         }
     }
+    
 }
