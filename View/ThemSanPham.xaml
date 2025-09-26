@@ -30,10 +30,10 @@
                 <Grid Grid.Column="0" Grid.Row="1">
 
                     <TextBlock Text="Tên:" Height="40" Margin="30,15,393,424" FontSize="30" FontWeight="Bold" />
-                    <TextBox Text="{Binding SanPham.Ten}" FontSize="25" Margin="148,23,28,417" Height="40"/>
+                    <TextBox Text="{Binding SanPham.TenSanPham, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontSize="25" Margin="148,23,28,417" Height="40"/>
 
                     <TextBlock Text="Mô tả:"  FontSize="30" FontWeight="Bold" Margin="30,104,366,336"/>
-                    <TextBox Text="{Binding SanPham.MoTa}" FontSize="25" Margin="147,100,30,340" Height="40" RenderTransformOrigin="0.498,2.378"/>
+                    <TextBox Text="{Binding SanPham.MoTaSanPham ,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="25" Margin="147,100,30,340" Height="40" RenderTransformOrigin="0.498,2.378"/>
 
                     <TextBlock Text="Ngày hết hạn:" FontSize="30" FontWeight="Bold" Margin="30,188,269,242"/>
                     <DatePicker SelectedDate="{Binding SanPham.NgayHetHan}" FontSize="25"  Margin="250,185,30,240" Height="40" RenderTransformOrigin="0.417,2.206"/>

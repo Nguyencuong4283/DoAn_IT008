@@ -33,6 +33,7 @@ namespace ShopLink.ViewModel
         public ICommand ThemSanPhamCommand { get; }
         public ICommand TangSLCommand { get; }
         public ICommand GiamSLCommand { get; }
+      
         public ICommand HuyCommand { get; }
         public Action CloseAction { get; set; }
 
@@ -54,9 +55,6 @@ namespace ShopLink.ViewModel
             {
                 // Gán đường dẫn ảnh vào thuộc tính SanPham.HinhAnh
                 SanPham.HinhAnh = dialog.FileName;
-
-                // Thông báo UI cập nhật
-                OnPropertyChanged(nameof(SanPham));
             }
         }
         private void TangSoLuong()
@@ -69,7 +67,7 @@ namespace ShopLink.ViewModel
             if(SanPham.SoLuong > 1)
             {
                 SanPham.SoLuong--;
-               
+                OnPropertyChanged(nameof(SanPham));
             }
         }
         private void ThemSanPham()
@@ -77,7 +75,8 @@ namespace ShopLink.ViewModel
             try
             {
                 _repo.Insert(SanPham);
-                MessageBox.Show("Thêm sản phẩm thành công!");
+                SanPham = new SanPham { SoLuong = 1 };
+                OnPropertyChanged(nameof(SanPham));
             }
             catch (Exception ex)
             {
@@ -87,7 +86,18 @@ namespace ShopLink.ViewModel
         }
         private void Huy()
         {
-            CloseAction?.Invoke();
+            var result = MessageBox.Show(
+       "Bạn có chắc chắn muốn hủy?",
+       "Xác nhận",
+       MessageBoxButton.YesNo,
+       MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                // Nếu người dùng chọn Yes, gọi CloseAction để đóng Window
+                CloseAction?.Invoke();
+            }
+            // Nếu chọn No, không làm gì → Window vẫn mở
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

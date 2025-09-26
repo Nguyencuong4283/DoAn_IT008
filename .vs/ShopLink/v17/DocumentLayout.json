@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ShopLink\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\viewmodel\\sanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:viewmodel\\sanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\taotaikhoanuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\taotaikhoanuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\taotaikhoanuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\taotaikhoanuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\themsanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\themsanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\themsanpham.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\themsanpham.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,24 +19,56 @@
       "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:model\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\resourcexaml\\mainresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:resourcexaml\\mainresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\themsanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\themsanpham.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\themsanpham.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\themsanpham.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\taotaikhoanuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\taotaikhoanuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\register_account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\register_account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\taotaikhoanuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\taotaikhoanuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\view\\register_account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|solutionrelative:view\\register_account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3086E77A-31C1-4ABD-BB40-FDBDB6A55435}|ShopLink.csproj|c:\\users\\admin\\source\\repos\\shoplink\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,159 +98,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaoTaiKhoanUser.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml.cs",
-              "RelativeDocumentMoniker": "View\\TaoTaiKhoanUser.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml.cs",
-              "RelativeToolTip": "View\\TaoTaiKhoanUser.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T05:34:43.532Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Model\\Users.cs",
-              "RelativeDocumentMoniker": "Model\\Users.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Model\\Users.cs",
-              "RelativeToolTip": "Model\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T17:04:07.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThemSanPham.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml.cs",
-              "RelativeDocumentMoniker": "View\\ThemSanPham.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml.cs",
-              "RelativeToolTip": "View\\ThemSanPham.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T09:19:06.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SanPhamViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\SanPhamViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\SanPhamViewModel.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\SanPhamViewModel.cs",
               "RelativeToolTip": "ViewModel\\SanPhamViewModel.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T09:09:31.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SanPhamRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Repository\\SanPhamRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\SanPhamRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Repository\\SanPhamRepository.cs",
-              "RelativeToolTip": "Repository\\SanPhamRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T04:27:16.539Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TaoTaiKhoanUser.xaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml",
-              "RelativeDocumentMoniker": "View\\TaoTaiKhoanUser.xaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml",
-              "RelativeToolTip": "View\\TaoTaiKhoanUser.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-25T08:52:21.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ThemSanPham.xaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml",
-              "RelativeDocumentMoniker": "View\\ThemSanPham.xaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml",
-              "RelativeToolTip": "View\\ThemSanPham.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T03:44:30.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Commands\\RelayCommand.cs",
-              "RelativeToolTip": "Commands\\RelayCommand.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T08:17:18.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\UserViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\UserViewModel.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\UserViewModel.cs",
               "RelativeToolTip": "ViewModel\\UserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T07:03:23.643Z"
+              "WhenOpened": "2025-09-23T07:03:23.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "SanPham.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Model\\SanPham.cs",
               "RelativeDocumentMoniker": "Model\\SanPham.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Model\\SanPham.cs",
               "RelativeToolTip": "Model\\SanPham.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA4wEEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:15:16.855Z"
+              "WhenOpened": "2025-09-22T08:15:16.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml",
-              "RelativeToolTip": "View\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-20T14:39:50.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SanPhamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Repository\\SanPhamRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SanPhamRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Repository\\SanPhamRepository.cs",
+              "RelativeToolTip": "Repository\\SanPhamRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T14:49:15.21Z"
+              "WhenOpened": "2025-09-25T04:27:16.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "MainReSource.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ReSourceXAML\\MainReSource.xaml",
               "RelativeDocumentMoniker": "ReSourceXAML\\MainReSource.xaml",
@@ -258,19 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\BaseViewModel.cs",
-              "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:10:34.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "User.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\User.xaml",
               "RelativeDocumentMoniker": "View\\User.xaml",
@@ -282,43 +182,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\User.xaml.cs",
-              "RelativeDocumentMoniker": "View\\User.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\User.xaml.cs",
-              "RelativeToolTip": "View\\User.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T17:00:07.692Z"
+              "DocumentIndex": 6,
+              "Title": "ThemSanPham.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml",
+              "RelativeDocumentMoniker": "View\\ThemSanPham.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml",
+              "RelativeToolTip": "View\\ThemSanPham.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T03:44:30.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Register_Account.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\Register_Account.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Register_Account.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\Register_Account.xaml.cs",
-              "RelativeToolTip": "View\\Register_Account.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ThemSanPham.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml.cs",
+              "RelativeDocumentMoniker": "View\\ThemSanPham.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\ThemSanPham.xaml.cs",
+              "RelativeToolTip": "View\\ThemSanPham.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T08:18:12.192Z"
+              "WhenOpened": "2025-09-26T06:52:42.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml.cs",
-              "RelativeToolTip": "View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T07:19:14.756Z"
+              "WhenOpened": "2025-09-20T14:49:15.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:10:34.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-26T06:47:03.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:17:18.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaoTaiKhoanUser.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml",
+              "RelativeDocumentMoniker": "View\\TaoTaiKhoanUser.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml",
+              "RelativeToolTip": "View\\TaoTaiKhoanUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T08:52:21.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Register_Account.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\Register_Account.xaml",
               "RelativeDocumentMoniker": "View\\Register_Account.xaml",
@@ -330,7 +283,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-20T14:39:50.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Model\\Users.cs",
+              "RelativeDocumentMoniker": "Model\\Users.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\Model\\Users.cs",
+              "RelativeToolTip": "Model\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T17:04:07.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaoTaiKhoanUser.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml.cs",
+              "RelativeDocumentMoniker": "View\\TaoTaiKhoanUser.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\TaoTaiKhoanUser.xaml.cs",
+              "RelativeToolTip": "View\\TaoTaiKhoanUser.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T05:34:43.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\User.xaml.cs",
+              "RelativeDocumentMoniker": "View\\User.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\User.xaml.cs",
+              "RelativeToolTip": "View\\User.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T17:00:07.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register_Account.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\Register_Account.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Register_Account.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\Register_Account.xaml.cs",
+              "RelativeToolTip": "View\\Register_Account.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:18:12.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShopLink\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:19:14.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -342,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShopLink\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",

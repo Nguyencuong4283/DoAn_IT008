@@ -11,8 +11,34 @@ namespace ShopLink.Model
     public class SanPham : INotifyPropertyChanged
     {
         public string MaSanPham { get; set; }
-        public string TenSanPham { get; set; }
-        public string MoTaSanPham { get; set; }
+        private string _tenSanPham;
+        public string TenSanPham
+        {
+            get => _tenSanPham;
+            set
+            {
+                if (_tenSanPham != value)
+                {
+                    _tenSanPham = value;
+                    OnPropertyChanged(nameof(TenSanPham));
+                }
+            }
+        }
+
+        private string _moTaSanPham;
+        public string MoTaSanPham
+        {
+            get => _moTaSanPham;
+            set
+            {
+                if (_moTaSanPham != value)
+                {
+                    _moTaSanPham = value;
+                    OnPropertyChanged(nameof(MoTaSanPham));
+                }
+            }
+        }
+
         public DateOnly NgayHetHan { get; set; }
         private int _soLuong;
         public int SoLuong
@@ -33,7 +59,17 @@ namespace ShopLink.Model
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         public double GiaGoc { get; set; }
         public double KhuyenMai { get; set; }
-        public string HinhAnh { get; set; }
+        private string _hinhAnh;
+        public string HinhAnh
+        {
+            get => _hinhAnh;
+            set
+            {
+                _hinhAnh = value;
+                OnPropertyChanged(nameof(HinhAnh));
+            }
+        }
+
         public TrangThai TrangThai { get; set; } = TrangThai.Private;
         public string MaStore { get; set;}
 

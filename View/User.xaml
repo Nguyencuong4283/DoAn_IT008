@@ -52,7 +52,7 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Border BorderBrush="black" BorderThickness="3" CornerRadius="4" Height="300" Width="200" Margin="20" Padding="0" ClipToBounds="True">
+                        <Border BorderBrush="black" BorderThickness="3" CornerRadius="4" Height="300" Width="200" Margin="22" Padding="0" ClipToBounds="True">
                             <Button Background="Gray" Padding="0" BorderThickness="0">
                                 <Grid Height="297">
                                     <Grid.RowDefinitions>
@@ -69,7 +69,7 @@
                                     <!-- Thông tin sản phẩm -->
                                     <StackPanel Grid.Row="1" Background="Transparent" VerticalAlignment="Center">
                                         <TextBlock Text="{Binding TenSanPham}" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-                                     
+
                                         <TextBlock HorizontalAlignment="Center" Margin="0,0,0,5">
                                     <Run Text="Khuyến mãi: "/>
                                     <Run Text="{Binding KhuyenMai}"/>
@@ -91,8 +91,6 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
         </ScrollViewer>
-
-
 
     </Grid>
 </Window>
