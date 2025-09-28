@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Admin\source\repos\ShopLink\App.xaml
-6144934915
+8-779383331
 
-18-1958824874
+23978114994
 199-590147925
-ReSourceXAML\MainReSource.xaml;View\MainWindow.xaml;View\Register_Account.xaml;View\TaoTaiKhoanUser.xaml;View\ThemSanPham.xaml;View\User.xaml;
+ReSourceXAML\MainReSource.xaml;View\ChiTietSanPham.xaml;View\MainWindow.xaml;View\Register_Account.xaml;View\TaoTaiKhoanUser.xaml;View\ThemSanPham.xaml;View\ThongTinUser.xaml;View\User.xaml;
 
-False
+True
 

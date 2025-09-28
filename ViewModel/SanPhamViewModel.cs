@@ -35,6 +35,7 @@ namespace ShopLink.ViewModel
         public ICommand GiamSLCommand { get; }
       
         public ICommand HuyCommand { get; }
+        public ICommand XemChiTietCommand { get; }
         public Action CloseAction { get; set; }
 
         public SanPhamViewModel()
@@ -46,6 +47,7 @@ namespace ShopLink.ViewModel
             ThemSanPhamCommand = new RelayCommand(ThemSanPham, () => SanPham != null);
             ChonAnhCommand = new RelayCommand(ChonAnh);
             HuyCommand = new RelayCommand(Huy);
+            XemChiTietCommand = new RelayCommand<SanPham>(XemChiTiet);
         }
         private void ChonAnh()
         {
@@ -98,6 +100,14 @@ namespace ShopLink.ViewModel
                 CloseAction?.Invoke();
             }
             // Nếu chọn No, không làm gì → Window vẫn mở
+        }
+        private void XemChiTiet(SanPham sp)
+        {
+            if (sp == null) return;
+       
+            // Tạo window và gán DataContext
+            ChiTietSanPham ct = new ChiTietSanPham(sp);
+            ct.Show();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

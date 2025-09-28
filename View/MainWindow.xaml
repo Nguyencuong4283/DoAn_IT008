@@ -7,37 +7,49 @@
         mc:Ignorable="d"
         DataContext="{StaticResource MainVM}"
         Title="MainWindow"  Width="1440" Height="900"  WindowStartupLocation="CenterScreen" Background ="#F5F6F8">
-
     <Grid>
-        <Grid>
-            <Grid Width="400" Height ="480" Background="#FFFFFF">
+
+        <Border BorderBrush="Black" BorderThickness="2" CornerRadius="8" Width="400" Height ="480">
+            <StackPanel  Orientation="Vertical"  Background="#FFFFFF">
                 <!--Logo-->
-                <Image Source="C:\Users\Admin\source\repos\ShopLink\Asset\Images\LogIn_Store.jpg" Margin="10,-2,292,374"/>
-                <Image Source="/Asset/Images/LogIn_Shiper.jpg" Margin="280,0,5,360"/>
-                <TextBlock Text="ShopLink" Foreground="#478EF0" FontSize="35" FontWeight="Bold" Margin="128,34,110,386"/>
-                <TextBlock Background="Black" Height="2" Margin="20,122,20,356"/>
-                <!--User-->
-                <TextBlock Text="User :" FontSize="20" FontWeight="Bold"  Margin="20,155,284,285" />
-                <TextBox  Height="50" Background="#D9D9D9" Margin="128,150,18,280"/>
-                <!--Password-->
-                <TextBlock Text="PassWord:"  FontSize="20" FontWeight="Bold" Margin="20,218,284,218"/>
-                <PasswordBox Height="50" Background="#D9D9D9" Margin="128,215,18,215"/>
-                <!--Đăng nhập-->
-                <Button  Foreground ="White" Content="Đăng nhập" FontSize="25" FontWeight="Bold"  Width="360" Height="50" Background="#007BFF" Margin="20,289,20,141"/>
-                <!--Quên mật khẩu-->
-                <TextBlock Foreground ="red" Text="Quên mật khẩu ?" FontSize ="25" VerticalAlignment="Bottom" Margin="20,0,180,106"/>
-                <!--Bắt đầu-->
-                <StackPanel>
-                    <Border BorderBrush="Black"   BorderThickness="2" CornerRadius="10" Height="50" Margin="127,390,127,40" Padding ="2">
-                        <Button  Content="Bắt đầu" Foreground="white" FontSize="15" FontWeight="Bold" Background="#0C3CFF"
-                         Command="{Binding OpenUser}"
-                />
+                <StackPanel Width="400" Height="100" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Source="C:\Users\Admin\source\repos\ShopLink\Asset\Images\LogIn_Store.jpg" Width="100" Height="100"/>
+                    <TextBlock Text="ShopLink" Foreground="#478EF0"  TextAlignment="Center" FontSize="35" FontWeight="Bold" Width="200" Height="50"/>
+                    <Image Source="/Asset/Images/LogIn_Shiper.jpg" Width="100" Height="100"/>
+                </StackPanel>
+                
+                <!--Vạch phân cách-->
+                <TextBlock Background="Black" Height="2" Width="350"/>
+                
+                <!--Thông tin đăng nhập-->
+                <StackPanel Width="400" Height="180" Orientation="Vertical">
+                    <!--User-->
+                    <StackPanel Width="400" Height="90" Orientation="Horizontal">
+                        <TextBlock Text="User :" FontSize="25" FontWeight="Bold"  Margin="25,40,0,20" Height="50"  Width="150" /> 
+                        <TextBox  Height="50" Width="200" Background="#D9D9D9" Margin="0,20,25,0" />
+                    </StackPanel>
+                    <!--Password-->
+                    <StackPanel Width="400" Height="90" Orientation="Horizontal">
+                        <TextBlock Text="PassWord:" Width="150"  FontSize="25" FontWeight="Bold" Margin="25,40,0,20"/>
+                        <PasswordBox Height="50" Width="200" Background="#D9D9D9" Margin="0,20,25,0"/>
+                    </StackPanel>
+                </StackPanel>
+                
+                <!--Tính năng-->
+                <StackPanel Width="400" Height="200" Orientation="Vertical">
+                    <!--Đăng nhập-->
+                    <Border  Width="360" Height="50" BorderBrush="Black" BorderThickness="2" Margin="20,20,20,10">
+                        <Button  Foreground ="White" Content="Đăng nhập" FontSize="25" FontWeight="Bold"  Background="#007BFF"/>
+                    </Border>
+                    <!--Quên mật khẩu-->
+                    <TextBlock Foreground ="red" Text="Quên mật khẩu ?" FontSize ="25" VerticalAlignment="Bottom" Margin="20,0,20,0"/>
+                    <!--Bắt đầu-->
+                    <Border BorderBrush="Black"   BorderThickness="2" CornerRadius="10" Height="50" Width="180" Margin="110,10,110,0">
+                        <Button  Content="Bắt đầu" Foreground="white" FontSize="20" FontWeight="Bold" Background="#0C3CFF" Command="{Binding OpenUser}"/>
                     </Border>
                 </StackPanel>
-                <!--Border-->
-                <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10"/>
-            </Grid>
-        </Grid>
+            </StackPanel>
+        </Border>
 
     </Grid>
 </Window>

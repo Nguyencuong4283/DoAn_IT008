@@ -25,6 +25,6 @@ namespace ShopLink.Model
             this.DiaChiUser = DiaChi_;
             this.EmailUser = Email_;
         }
-        public List<SanPham> DanhSachSanPham { get; set; } = new List<SanPham>();
+        public Users() {}
     }
 }

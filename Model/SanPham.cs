@@ -38,8 +38,20 @@ namespace ShopLink.Model
                 }
             }
         }
+        private DateTime? _dateOnly;
+        public DateTime? NgayHetHan
+        {
+            get => _dateOnly;
+            set
+            {
+                if (value != _dateOnly)
+                {
+                    _dateOnly = value;
+                    OnPropertyChanged(nameof(NgayHetHan));
+                }
+            }
 
-        public DateOnly NgayHetHan { get; set; }
+        }
         private int _soLuong;
         public int SoLuong
         {
@@ -53,12 +65,15 @@ namespace ShopLink.Model
                 }
             }
         }
+       
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName)
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         public double GiaGoc { get; set; }
         public double KhuyenMai { get; set; }
+        public double GiaBan { get; set; }
         private string _hinhAnh;
         public string HinhAnh
         {
@@ -69,8 +84,19 @@ namespace ShopLink.Model
                 OnPropertyChanged(nameof(HinhAnh));
             }
         }
-
-        public TrangThai TrangThai { get; set; } = TrangThai.Private;
+        private TrangThai _trangThai;
+        public TrangThai TrangThai
+        {
+            get => _trangThai;
+            set
+            {
+                if(_trangThai != value)
+                {
+                    _trangThai = value;
+                    OnPropertyChanged(nameof(TrangThai));
+                }
+            }
+        }
         public string MaStore { get; set;}
 
         public SanPham() { }
@@ -82,7 +108,7 @@ namespace ShopLink.Model
             KhuyenMai = km;
             MoTaSanPham = ha;
         }
-        public SanPham(string tenSanPham, string moTaSanPham, DateOnly ngayHetHan, int soLuong, double giaGoc, double khuyenMai, string hinhAnh, TrangThai trangThai)
+        public SanPham(string tenSanPham, string moTaSanPham, DateTime ngayHetHan, int soLuong, double giaGoc, double khuyenMai, string hinhAnh, TrangThai trangThai)
         {
 
             TenSanPham = tenSanPham;
@@ -95,7 +121,7 @@ namespace ShopLink.Model
             TrangThai = trangThai;
         }
 
-        public SanPham(string ten, string mota, DateOnly dateOnly, int sl, double gia, double khuyenMai, string hinhAnh)
+        public SanPham(string ten, string mota, DateTime dateOnly, int sl, double gia, double khuyenMai, string hinhAnh)
         {
             TenSanPham = ten;
             MoTaSanPham = mota;

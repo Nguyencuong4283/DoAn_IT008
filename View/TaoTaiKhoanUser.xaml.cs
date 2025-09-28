@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopLink.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,11 +18,14 @@ namespace ShopLink.View
     /// <summary>
     /// Interaction logic for ThongTinUser.xaml
     /// </summary>
-    public partial class ThongTinUser : Window
+    public partial class TaoTaiKhoanUser : Window
     {
-        public ThongTinUser()
+        public TaoTaiKhoanUser()
         {
             InitializeComponent();
+            var vm = new UserViewModel();
+            vm.CloseAction = new Action(this.Close); // gán hàm Close cho ViewModel
+            DataContext = vm;
         }
     }
 }

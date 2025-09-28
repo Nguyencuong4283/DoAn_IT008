@@ -23,8 +23,9 @@ namespace ShopLink.View
         public User()
         {
             InitializeComponent();
-            DataContext = new MainViewModel();
-            
+            var vm = new MainUserViewModel();
+            DataContext = vm;
+
         }
     }
 }

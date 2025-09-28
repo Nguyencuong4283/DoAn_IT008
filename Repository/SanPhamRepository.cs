@@ -26,9 +26,9 @@ namespace ShopLink.Repository
                 string.IsNullOrEmpty(sp.MoTaSanPham) ? (object)DBNull.Value : sp.MoTaSanPham);
 
             cmd.Parameters.AddWithValue("@NgayHetHan",
-     sp.NgayHetHan == default
-         ? (object)DBNull.Value
-         : sp.NgayHetHan.ToDateTime(TimeOnly.MinValue));
+    sp.NgayHetHan.HasValue
+        ? sp.NgayHetHan.Value
+        : (object)DBNull.Value);
 
             cmd.Parameters.AddWithValue("@SoLuong", sp.SoLuong);
             cmd.Parameters.AddWithValue("@GiaGoc", sp.GiaGoc);
@@ -46,18 +46,23 @@ namespace ShopLink.Repository
             using (var conn = new SqlConnection(_connectionString))
             {
                 conn.Open();
-                var cmd = new SqlCommand("SELECT TenSanPham, GiaGoc, KhuyenMai, HinhAnh FROM SANPHAM", conn);
+                var cmd = new SqlCommand("SELECT TenSanPham, GiaGoc, KhuyenMai, HinhAnh,MoTaSanPham FROM SANPHAM", conn);
                 var reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
+                    double giaGoc = reader.IsDBNull(1) ? 0 : Convert.ToDouble(reader.GetDecimal(1));
+                    double khuyenMai = reader.IsDBNull(2) ? 0 : Convert.ToDouble(reader.GetDecimal(2));
                     list.Add(new SanPham
                     {
                         TenSanPham = reader.IsDBNull(0) ? null : reader.GetString(0),
+                        
                         GiaGoc = reader.IsDBNull(1) ? 0 : Convert.ToDouble(reader.GetDecimal(1)),
 
                         KhuyenMai = reader.IsDBNull(2) ? 0 : Convert.ToDouble(reader.GetDecimal(2)),
+                        GiaBan = giaGoc - khuyenMai * giaGoc / 100,
 
                         HinhAnh = reader.IsDBNull(3) ? null : reader.GetString(3),
+                        MoTaSanPham = reader.IsDBNull(4) ? null : reader.GetString(4)
                     });
                 }
 

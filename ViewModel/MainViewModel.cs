@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopLink.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,12 @@ namespace ShopLink.ViewModel
         public  MainViewModel()
         {
             OpenUser = new RelayCommand(OpenUserPage);
+
+        }
+        public static class SessionManager
+        {
+            public static Users CurrentUser { get; set; }
+            public static bool IsLoggedIn => CurrentUser != null;
         }
         private void OpenUserPage()
         {
