@@ -8,7 +8,7 @@ namespace ShopLink.ViewModel
 {
     public class MainUserViewModel
     {
-        public SanPhamViewModel SanPhamVM { get; set; }
+        public SanPhamViewModel SanPhamVM { get; ; }
         public UserViewModel UserVM { get; set; }
 
         public MainUserViewModel()

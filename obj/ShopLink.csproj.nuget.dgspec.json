@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\ShopLink\\ShopLink.csproj": {}
+    "/Users/nguyencuong/Desktop/c#/AvaloniaApplication1/DoAn_IT008/ShopLink.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\ShopLink\\ShopLink.csproj": {
+    "/Users/nguyencuong/Desktop/c#/AvaloniaApplication1/DoAn_IT008/ShopLink.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ShopLink.csproj",
+        "projectUniqueName": "/Users/nguyencuong/Desktop/c#/AvaloniaApplication1/DoAn_IT008/ShopLink.csproj",
         "projectName": "ShopLink",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ShopLink\\ShopLink.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ShopLink\\obj\\",
+        "projectPath": "/Users/nguyencuong/Desktop/c#/AvaloniaApplication1/DoAn_IT008/ShopLink.csproj",
+        "packagesPath": "/Users/nguyencuong/.nuget/packages/",
+        "outputPath": "/Users/nguyencuong/Desktop/c#/AvaloniaApplication1/DoAn_IT008/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nguyencuong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
